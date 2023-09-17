@@ -1,0 +1,17 @@
+html, body{
+  height: 100%;
+}
+.main .down{
+  height: 55px;
+}
+.main .up{
+  height: calc(100% - 55px);
+}
+.main .right{
+  width: 170px;
+}
+.main .left{
+  width: calc(100% - 170px);
+  overflow-y: scroll;
+}
+
